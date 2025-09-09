@@ -1,0 +1,229 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/zarcc/Documents/GitHub/WEB3/Web3bridge-Web3-Cohort-XIII/onsite-program/eviction_test/Zacheus-Oluwasegun/Task2/contracts/Lock.sol": {
+      "lastModificationDate": 1755538862689,
+      "contentHash": "02977c6bb5c96249911d42a3c55a1e19",
+      "sourceName": "contracts/Lock.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IERC20.sol",
+        "../interfaces/IUniswapV2Router02.sol",
+        "../interfaces/IUniswapV2Router01.sol",
+        "../interfaces/IUniswapV2Pair.sol",
+        "../interfaces/IUniswapV2Factory.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "Lock"
+      ]
+    },
+    "/home/zarcc/Documents/GitHub/WEB3/Web3bridge-Web3-Cohort-XIII/onsite-program/eviction_test/Zacheus-Oluwasegun/Task2/interfaces/IERC20.sol": {
+      "lastModificationDate": 1755538789557,
+      "contentHash": "00cb0a59af46b37540a2b36f39d2a80e",
+      "sourceName": "interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/home/zarcc/Documents/GitHub/WEB3/Web3bridge-Web3-Cohort-XIII/onsite-program/eviction_test/Zacheus-Oluwasegun/Task2/interfaces/IUniswapV2Router02.sol": {
+      "lastModificationDate": 1755538789559,
+      "contentHash": "c3ca7952d40149e0afe40aad36cfe433",
+      "sourceName": "interfaces/IUniswapV2Router02.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IUniswapV2Router01.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "IUniswapV2Router02"
+      ]
+    },
+    "/home/zarcc/Documents/GitHub/WEB3/Web3bridge-Web3-Cohort-XIII/onsite-program/eviction_test/Zacheus-Oluwasegun/Task2/interfaces/IUniswapV2Pair.sol": {
+      "lastModificationDate": 1755538789558,
+      "contentHash": "ed8f72f0273e2d2a789067ed8d27f735",
+      "sourceName": "interfaces/IUniswapV2Pair.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "IUniswapV2Pair"
+      ]
+    },
+    "/home/zarcc/Documents/GitHub/WEB3/Web3bridge-Web3-Cohort-XIII/onsite-program/eviction_test/Zacheus-Oluwasegun/Task2/interfaces/IUniswapV2Factory.sol": {
+      "lastModificationDate": 1755538789558,
+      "contentHash": "bbddccbef737ff9cbe9e971067325761",
+      "sourceName": "interfaces/IUniswapV2Factory.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "IUniswapV2Factory"
+      ]
+    },
+    "/home/zarcc/Documents/GitHub/WEB3/Web3bridge-Web3-Cohort-XIII/onsite-program/eviction_test/Zacheus-Oluwasegun/Task2/interfaces/IUniswapV2Router01.sol": {
+      "lastModificationDate": 1755538789559,
+      "contentHash": "a8da577c08857e3c72caa0e0bf663c7e",
+      "sourceName": "interfaces/IUniswapV2Router01.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "IUniswapV2Router01"
+      ]
+    }
+  }
+}
